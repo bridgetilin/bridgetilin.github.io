@@ -1,20 +1,20 @@
 papers:
   - title: "Understanding the epigenetic risk of adverse post-traumatic neuropsychiatric sequelae through interpretable ultra-high dimensional data analysis."
     authors: "<b>Lin BI</b>, An X"
-    thesis: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+    thesis: "https://cdr.lib.unc.edu/concern/honors_theses/b5645631z"
     venue: "Undergraduate Honors Thesis. 2025."
     selected: y
 
   - title: "Spatial immunophenotyping from whole-slide multiplexed tissue imaging using convolutional neural networks."
     authors: "Yosofvand M, Edmiston SN, Smithy JW, Peng X, Kostrzewa CE, <b>Lin BI</b>, Ehrich F, Reiner A, Miedema J, Moy AP, Orlow I, Postow MA, Panageas K, Seshan VE, Callahan MK, Thomas NE, Shen R"
     venue: "biorxiv preprint. 2024."
-    paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+    paper_pdf: "https://www.biorxiv.org/content/10.1101/2024.08.16.608247v1.full.pdf"
     selected: y
 
   - title: "The relationship between computed tomography-derived left bronchial diameter and double lumen endotracheal tube size selection."
     authors: "Smetlz AM, Wickey AB, Belliston-Fowkes DJ, Tran LN, Smith EJ, An X, <b>Lin BI</b>, Teeter "
     venue: "Journal of Cardiothoracic and Vascular Anesthesia. 2023."
-    paper_pdf: "/assets/publications/2024_supernotes/paper.pdf"
+    paper_pdf: "https://doi.org/10.1053/j.jvca.2024.02.015"
     #code: "https://github.com/saveski-lab/supernotes"
     selected: y
 
