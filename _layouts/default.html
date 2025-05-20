@@ -6,9 +6,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="Martin Saveski">
-  <meta name="author" content="Martin Saveski">
-  <meta property="og:title" content="Martin Saveski" />
+  <meta name="description" content="Bridget Lin">
+  <meta name="author" content="Bridget Lin">
+  <meta property="og:title" content="Bridget Lin" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://www.martinsaveski.com" />
   <meta property="og:site_name" content="Martin Saveski" />
@@ -77,13 +77,13 @@
             <p>{{ site.data.main_info.title }}</p>
             <p>{{ site.data.main_info.email }}</p>
             <p>
-              <span onclick="window.open('{{ site.data.main_info.bsky }}')" style="cursor: pointer">
+              <!-- <span onclick="window.open('{{ site.data.main_info.bsky }}')" style="cursor: pointer">
                 <i class="fa-brands fa-bluesky" style="padding-top: 10px"></i>
               </span>
 
               <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
                 <i class="fa-brands fa-twitter fa-lg"></i>
-              </span>
+              </span> -->
 
               <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
                 <i class="fa-brands fa-linkedin fa-lg"></i>
@@ -106,10 +106,10 @@
       <div class="container">
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Prospective Students</a></li>
+          <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Prospective Students</a></li> -->
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
           <!--<li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>-->
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>CV</a></li>
         </ul>
       </div>
     </nav>
@@ -125,13 +125,13 @@
           {{ site.data.main_info.email }}
         </div>
         <div class="four columns">
-          <span onclick="window.open('{{ site.data.main_info.bsky }}')" style="cursor: pointer">
+          <!-- <span onclick="window.open('{{ site.data.main_info.bsky }}')" style="cursor: pointer">
             <i class="fa-brands fa-bluesky fa-sm" style="padding-top: 10px"></i>
           </span>
 
           <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
             <i class="fa-brands fa-twitter"></i>
-          </span>
+          </span> -->
 
           <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
             <i class="fa-brands fa-linkedin"></i>
@@ -146,6 +146,12 @@
           </span>
         </div>
       </div>
+
+      <div class="row" style="text-align: center; font-size: 0.85em; margin-top: 10px;">
+        Website template from <a href="https://github.com/msaveski/www_personal" target="_blank">Martin Saveski</a>.
+      </div>
+    </div>
+    
     </div>
 
   </div>
