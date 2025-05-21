@@ -5,6 +5,12 @@ experiences:
   title: "PhD Student"
   subtitle: "Department of Biomedical Data Science"
   category: "school"
+  
+- place: "MSKCC"
+  time: "May 2024 - August 2024"
+  title: "QSURE Intern"
+  subtitle: "Department of Epidemiology & Biostatistics"
+  category: "work"
 
 - place: "UNC Chapel Hill"
   time: "August 2021 - May 2025"
@@ -12,11 +18,7 @@ experiences:
   subtitle: "Highest Honors, Highest Distinction"
   category: "school"
 
-- place: "MSKCC"
-  time: "May 2024 - August 2024"
-  title: "QSURE Intern"
-  subtitle: "Department of Epidemiology & Biostatistics"
-  category: "work"
+
 
 # - place: "Facebook"
 #   time: "Summer 2019"
