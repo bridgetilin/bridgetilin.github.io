@@ -245,7 +245,7 @@
     margin-left: -9px;
     background: #fff;
     border-radius: 10px;
-    border: 4px solid rgb(51, 0, 111);
+    border: 4px solid rgb(123, 175, 212);
     z-index: 10;
   }
 
@@ -301,9 +301,21 @@
   }
 }
 
-@media screen and (min-width: 400px ?? max-width: 660px) {
+/* @media screen and (min-width: 400px ?? max-width: 660px) {
   .direction-l .desc,
   .direction-r .desc {
     margin: 1em 4em 0 4em;
   }
+} */
+
+@media screen and (min-width: 400px) and (max-width: 660px) {
+  .direction-l .desc,
+  .direction-r .desc {
+    margin: 1em 4em 0 4em;
+  }
+}
+
+
+.timeline:before {
+  background: rgb(123, 175, 212) !important;
 }
