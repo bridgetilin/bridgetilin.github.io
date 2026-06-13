@@ -87,6 +87,70 @@ body {
 .image {
   text-align: center; }
 
+/* Phone and small screens */
+@media (max-width: 749px) {
+  .header {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: center; }
+  .header .row {
+    flex-direction: column;
+    align-items: center; }
+  .header .row > .columns {
+    width: 100%;
+    margin-left: 0; }
+  .header .three.columns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.25rem; }
+  .header .profile-pic {
+    width: 150px;
+    max-width: 45vw;
+    margin: 0 auto; }
+  .header .main-description {
+    text-align: center; }
+  .header .main-description h1 {
+    font-size: 3rem;
+    line-height: 1.2; }
+  .header .main-description p {
+    font-size: 1.45rem; }
+  .header .main-description .fa,
+  .header .main-description .ai {
+    margin: 0 0.35rem; }
+  .docs-section {
+    padding: 2.5rem 0; }
+  .navbar {
+    display: block;
+    height: auto;
+    padding: 0.75rem 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee; }
+  .navbar > .container {
+    width: 100%;
+    padding: 0; }
+  .navbar-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0 0.5rem; }
+  .navbar-item {
+    float: none;
+    margin: 0; }
+  .navbar-link {
+    font-size: 1.05rem;
+    letter-spacing: 0.08rem;
+    margin-right: 0;
+    line-height: 1.4;
+    padding: 0.3rem 0.4rem; }
+  .navbar-spacer {
+    display: none !important; }
+  .has-docked-nav .navbar {
+    position: static; }
+}
+
 /*  ================ Project styling  ================ */
 .project-container {
   margin-bottom: 30px;
