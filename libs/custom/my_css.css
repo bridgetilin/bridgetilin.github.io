@@ -1,24 +1,12 @@
 h4 {
   letter-spacing: .1rem; }
 
-/* Responsive typography: slightly larger text, scales with screen size */
+/* Match Skeleton defaults (smaller than previous custom sizing) */
 html {
-  font-size: clamp(10.8px, 0.4vw + 9.6px, 11.8px);
-}
+  font-size: 62.5%; }
 body {
-  font-size: 1.52em;
-  line-height: 1.65;
-}
-@media (min-width: 550px) {
-  body {
-    font-size: 1.56em;
-  }
-}
-@media (min-width: 750px) {
-  body {
-    font-size: 1.58em;
-  }
-}
+  font-size: 1.5em;
+  line-height: 1.6; }
 
 .container {
   max-width: 1200px; }
