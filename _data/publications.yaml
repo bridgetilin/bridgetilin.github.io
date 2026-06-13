@@ -18,11 +18,11 @@ papers:
     paper_pdf: "https://pubmed.ncbi.nlm.nih.gov/40878135/"
     selected: y
 
-  - title: "Understanding the epigenetic risk of adverse post-traumatic neuropsychiatric sequelae through interpretable ultra-high dimensional data analysis."
-    authors: "<b>Bridget Lin</b>, Xinming An"
-    thesis: "https://cdr.lib.unc.edu/concern/honors_theses/b5645631z"
-    venue: "Undergraduate Honors Thesis. 2025."
-    selected: y
+  # - title: "Understanding the epigenetic risk of adverse post-traumatic neuropsychiatric sequelae through interpretable ultra-high dimensional data analysis."
+  #   authors: "<b>Bridget Lin</b>, Xinming An"
+  #   thesis: "https://cdr.lib.unc.edu/concern/honors_theses/b5645631z"
+  #   venue: "Undergraduate Honors Thesis. 2025."
+  #   selected: y
 
   - title: "Spatial immunophenotyping from whole-slide multiplexed tissue imaging using convolutional neural networks."
     authors: "Mohammad Yosofvand, Sharon N Edmiston, James W Smithy, Xiyu Peng, Caroline E Kostrzewa, <b>Bridget Lin</b>, Fiona Ehrich, Allison Reiner, Jayson Miedema, Andrea P Moy, Irene Orlow, Michael A Postow, Katherine Panageas, Venkatraman E Seshan, Margaret K Callahan, Nancy E Thomas, Ronglai Shen"
