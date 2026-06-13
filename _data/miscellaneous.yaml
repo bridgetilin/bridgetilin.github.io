@@ -1,0 +1,5 @@
+items:
+  - title: "torch_measure"
+    description: "Building torch_measure, a PyTorch library for measurement science, including IRT models, computerized adaptive testing, psychometric metrics, and GPU-accelerated estimation."
+    url: "https://aimslab.stanford.edu/torch_measure"
+    docs: "https://torch-measure.readthedocs.io/en/latest/"

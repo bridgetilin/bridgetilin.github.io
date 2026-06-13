@@ -1,0 +1,5 @@
+name: bridgetilin-website
+channels:
+  - conda-forge
+dependencies:
+  - ruby>=3.1

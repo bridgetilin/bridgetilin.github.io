@@ -5,8 +5,14 @@ experiences:
   title: "PhD Student"
   subtitle: "Department of Biomedical Data Science"
   category: "school"
-  
-- place: "MSKCC"
+
+- place: "Gladstone Institutes"
+  time: "June 2025 - August 2025"
+  title: "Student Researcher"
+  subtitle: "Stanford-Gladstone Beehive"
+  category: "work"
+
+- place: "Memorial Sloan Kettering"
   time: "May 2024 - August 2024"
   title: "QSURE Intern"
   subtitle: "Department of Epidemiology & Biostatistics"
@@ -14,8 +20,8 @@ experiences:
 
 - place: "UNC Chapel Hill"
   time: "August 2021 - May 2025"
-  title: "BSPH in Biostatistics & Minors in Computer Science and Math"
-  subtitle: "Highest Honors, Highest Distinction"
+  title: "BS in Biostatistics; Minors in Computer Science and Mathematics"
+  subtitle: "Highest Honors, Highest Distinction, Phi Beta Kappa"
   category: "school"
 
 

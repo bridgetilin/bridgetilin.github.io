@@ -1,11 +1,36 @@
 h4 {
   letter-spacing: .1rem; }
+
+/* Responsive typography: slightly larger text, scales with screen size */
+html {
+  font-size: clamp(10.8px, 0.4vw + 9.6px, 11.8px);
+}
+body {
+  font-size: 1.52em;
+  line-height: 1.65;
+}
+@media (min-width: 550px) {
+  body {
+    font-size: 1.56em;
+  }
+}
+@media (min-width: 750px) {
+  body {
+    font-size: 1.58em;
+  }
+}
+
 .container {
-  max-width: 800px; }
+  max-width: 1200px; }
 .header {
   margin-top: 60px;
   margin-bottom: 60px; 
   text-align: left; }
+.header .profile-pic {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%; }
 .main-description h1 {
   margin-bottom: 0px; }
 .main-description p {
@@ -15,6 +40,14 @@ h4 {
   margin-top: 5px; }
 .paper {
   margin-bottom: 20px }
+.equal-contrib-star {
+  font-weight: 600; }
+#publications .paper sup {
+  font-size: 1.05em;
+  font-weight: 600;
+  vertical-align: baseline;
+  position: relative;
+  top: -0.2em; }
 .paper .title {
   /*text-transform: uppercase; */}
 .paper p {
@@ -37,12 +70,21 @@ h4 {
   border-top: 1px solid #eee;
   padding: 4rem 0;
   margin-bottom: 0;}
+#bio {
+  padding-bottom: 1.5rem; }
+#bio + .docs-section {
+  padding-top: 2rem; }
 .footer {
   text-align: center;
   color: rgba(0, 0, 0, 0.4);
   border-top: 1px solid #eee;
   padding: 15px 0 40px 0;
   margin-bottom: 0;}
+.footer-updated {
+  text-align: center;
+  font-size: 0.85em;
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.45); }
 .navbar {
   display: none; }
 .title-subtitle h3 {
@@ -104,7 +146,7 @@ h4 {
     margin-bottom: 0; }
   .navbar-link {
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 600;
     letter-spacing: .2rem;
     margin-right: 35px;

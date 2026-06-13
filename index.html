@@ -5,20 +5,16 @@ title: Home
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
-  I am an incoming Biomedical Data Science PhD student at Stanford University.
-  I am interested in statistical and machine learning techniques for the multi-modal analysis and integration of big data, including genomic, EHR, and imaging data. 
-  I hope to craft data-driven solutions to precision health problems, with emphasis on interpretability, fairness, and equity. 
-  
+  <p>
+  I am a first-year PhD student in the Department of Biomedical Data Science at Stanford University, where I am advised by <a href="https://alsentzerlab.org/" target="_blank">Emily Alsentzer</a> and <a href="https://shahlab.stanford.edu/" target="_blank">Nigam Shah</a>. 
+  My current research focuses on clinical natural language processing and trustworthy AI, spanning development, evaluation, and safe deployment in healthcare.
   </p>
-  Previously, I graduated from the University of North Carolina at Chapel Hill (UNC) with a B.S.P.H. degree in Biostatistics with minors in Computer Science and Mathematics. 
-  At UNC, I worked with Dr. Xinming An on the AURORA study to build machine learning models that utilize epigenetic data to predict the onset of PTSD and pain in trauma survivors. 
-  I also had the privilege of interning at Memorial Sloan Kettering Cancer Center (MSKCC), where I was advised by Dr. Ronglai Shen and worked on 
-  developing a deep-learning pipeline for the automation of end-to-end whole-slide multiplexed tissue image analysis.
-  In addition to research, I enjoy teaching, and I served as an undergraduate Teaching Assistant (TA) for COMP 110 (Introduction to Programming and Data Science) at UNC for 8 semesters. 
+  <p>
+  I previously completed my B.S. in Biostatistics from the University of North Carolina at Chapel Hill and have also spent time at Memorial Sloan Kettering Cancer Center and the Gladstone Institutes. Along the way, I have been fortunate to have received excellent mentorship from Xinming An and Ronglai Shen.
   </p>
-  In my free time, I love playing racquet sports, swimming, painting, hiking, and film photography. I created a website to showcase some of my film photos, which you can access <a href="https://bridgetilin.github.io/photos/" target="_blank">here</a>!
- 
-  
+  <p>
+  Outside of research, I enjoy hiking, racket sports, and photography (see some of my film photos at my website <a href="https://bridgetilin.github.io/photos/" target="_blank">here</a>)!
+  </p>
 
   <!-- <p>
   My research develops tools for analyzing <b>large-scale social data</b>, aiming to provide a better understanding of <b>social structure and behaviors</b> online while also impacting the <b>design of digital social systems</b>. 
@@ -170,6 +166,8 @@ title: Home
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
 
+  <p><span class="equal-contrib-star">*</span> denotes equal contribution.</p>
+
   <!-- Optional: link to Google Scholar -->
   <!-- <p>See all publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.</p> -->
 
@@ -180,7 +178,11 @@ title: Home
       <p><i>{{ paper.venue }}</i></p>
       <div class="paper-buttons">
         {% if paper.paper_pdf %}
+          {% if paper.paper_pdf contains '://' %}
+          <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+          {% else %}
           <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+          {% endif %}
         {% endif %}
 
         {% if paper.slides %}
@@ -288,20 +290,21 @@ title: Home
 </div>
 -->
 
-<!-- ========== RESUME ========== -->
+<!-- ========== EDUCATION & EXPERIENCE ========== -->
 <div class="docs-section" id="resume">
   <!-- <h4>Vitæ</h4> -->
-  <h4>CV</h4>
-  <p>Full Resume in <a href={{ "/assets/cv/cv_may_2025.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+  <h4>Education & Experience</h4>
+  <!-- <p>Full Resume in <a href={{ "/assets/cv/cv_may_2025.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p> -->
 
   <!-- The Timeline -->
   <ul class="timeline">
     {% for exp in site.data.experience.experiences %}
     <li>
-      {% if exp.category == "work" %}
-      <div class="direction-l">
-      {% else %}
+      {% assign index_modulo = forloop.index0 | modulo: 2 %}
+      {% if index_modulo == 0 %}
       <div class="direction-r">
+      {% else %}
+      <div class="direction-l">
       {% endif %}
         <div class="flag-wrapper">
           <span class="flag">{{ exp.place }}</span>
@@ -312,6 +315,39 @@ title: Home
     </li>
     {% endfor %}
   </ul>
+</div>
+
+<!-- ========== TEACHING ========== -->
+<div class="docs-section" id="teaching">
+  <h4>Teaching</h4>
+
+  {% for role in site.data.teaching.roles %}
+    <div class="paper">
+      <p class="title"><b>{{ role.course }}</b></p>
+      <p>{{ role.title }}</p>
+      <p><i>{{ role.place }} · {{ role.time }}</i></p>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- ========== MISCELLANEOUS ========== -->
+<div class="docs-section" id="miscellaneous">
+  <h4>Miscellaneous</h4>
+
+  {% for item in site.data.miscellaneous.items %}
+    <div class="paper">
+      <p class="title"><b>{{ item.title }}</b></p>
+      <p>{{ item.description }}</p>
+      <div class="paper-buttons">
+        {% if item.url %}
+          <a class="button" href="{{ item.url }}" target="_blank">Website</a>
+        {% endif %}
+        {% if item.docs %}
+          <a class="button" href="{{ item.docs }}" target="_blank">Documentation</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
 </div>
 
 <!-- <div class="docs-section" id="template">

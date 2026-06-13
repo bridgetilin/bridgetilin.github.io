@@ -55,9 +55,13 @@
 
 .flag-wrapper {
   position: relative;
-  display: inline-block;
-  
-  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.direction-l .flag-wrapper {
+  align-items: flex-end;
 }
 
 .flag {
@@ -141,11 +145,11 @@
 }
 
 .direction-l .time-wrapper {
-  float: left;
+  float: none;
 }
 
 .direction-r .time-wrapper {
-  float: right;
+  float: none;
 }
 
 .time {
