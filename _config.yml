@@ -4,6 +4,8 @@ includes:    ./_includes
 baseurl: ""
 url: "https://bridgetilin.github.io"
 
+plugins:
+  - jekyll-sitemap
 collections:
   projects:
     output: true
