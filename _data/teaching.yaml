@@ -1,4 +1,9 @@
 roles:
+  - course: "ADVANCE Summer Institute"
+    title: "Program Leader"
+    place: "Stanford University"
+    time: "2026"
+
   - course: "BMDS 215: Data Science for Medicine"
     title: "Teaching Assistant"
     place: "Stanford University"
