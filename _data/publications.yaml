@@ -1,7 +1,7 @@
 papers:
   - title: "OmitEHR: Scalable Omission Detection in LLM Generated Clinical Summaries"
     authors: "<b>Bridget Lin</b><sup>*</sup>, Ryan Welch<sup>*</sup>, Bobak Seddighzadeh, Fran Riley, Kaitlyn Stoehr, Margarita Pipinos, Dimitri Speron, Emma Sage, Sneha Jain, Nigam Shah, Emily Alsentzer"
-    venue: "arXiv preprint. 2026."
+    venue: "ML4H 2026. arXiv and code coming soon."
     selected: y
 
   - title: "CARE: A Conformal Safety Layer for Medical Summarization"
