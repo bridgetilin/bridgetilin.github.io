@@ -1,4 +1,9 @@
 roles:
+  - course: "BMDS 215: Data Science for Medicine"
+    title: "Teaching Assistant"
+    place: "Stanford University"
+    time: "2026"
+
   - course: "COMP 110: Introduction to Programming and Data Science"
     title: "Undergraduate Teaching Assistant"
     place: "UNC Chapel Hill"
