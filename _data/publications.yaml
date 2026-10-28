@@ -1,7 +1,12 @@
 papers:
+  - title: "OmitEHR: Scalable Omission Detection in LLM Generated Clinical Summaries"
+    authors: "<b>Bridget Lin</b><sup>*</sup>, Ryan Welch<sup>*</sup>, Bobak Seddighzadeh, Fran Riley, Kaitlyn Stoehr, Margarita Pipinos, Dimitri Speron, Emma Sage, Sneha Jain, Nigam Shah, Emily Alsentzer"
+    venue: "arXiv preprint. 2026."
+    selected: y
+
   - title: "CARE: A Conformal Safety Layer for Medical Summarization"
     authors: "Suhana Bedi<sup>*</sup>, <b>Bridget Lin</b><sup>*</sup>, Anson Y. Zhou, Chloe O. Stanwyck, Jenelle A. Jindal, Sanmi Koyejo, David Stutz, Nigam H. Shah"
-    venue: "arXiv preprint. 2026."
+    venue: "ML4H 2026; ACL TrustNLP Workshop; NeurIPS GenAI4Health Workshop."
     paper_pdf: "https://arxiv.org/abs/2606.08969"
     code: "https://github.com/som-shahlab/CARE"
     selected: y
